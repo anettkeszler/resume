@@ -1,22 +1,22 @@
 # Dr Anett KESZLER
 
-| Spain, Hungary                                           | +36304437470                                                  |
-| -------------------------------------------------------- | ------------------------------------------------------------- |
-| [anettkeszler.github.io](https://anettkeszler.github.io) |[anett.dr.keszler@gmail.com](mailto:anett.dr.keszlergmail.com) |
+| Spain/Hungary - Hybrid/Remote                            | +36304437470                                                   |
+| -------------------------------------------------------- | -------------------------------------------------------------- |
+| [anettkeszler.github.io](https://anettkeszler.github.io) |[anett.dr.keszler@gmail.com](mailto:anett.dr.keszler@gmail.com) |
 
 ## PROFESSIONAL SUMMARY
 
-I am a software developer with experience in backend development using Python, Java, and Scala, and exposure to frontend technologies such as JavaScript and React. I’ve worked on distributed systems, message queue migration, and service integration, and have experience with cross-team collaboration, documentation, and release coordination. With a background in pharmacy, I bring strong attention to detail, communication and empathy into my work. Currently strengthening my skills after maternity leave and looking for a backend-focused role where I can continue to grow and contribute. **Tech stack**: Java, Scala, Python, JavaScript, React, Spring Boot, Flask, SQL. I’m currently based in Málaga, Spain, and open to working remotely with teams in Hungary. Please contact me directly at anett.dr.keszler@gmail.com or see my Github repositories at **https://github.com/anettkeszler**.
+I am a software developer (and former pharmacist) with experience in backend development using Python, Java, and Scala, and exposure to frontend technologies such as JavaScript and React. I have worked on distributed systems, message queue migration, and service integration, and have experience with cross-team collaboration, documentation, and release coordination. With a background in pharmacy, I bring strong attention to detail, communication and empathy into my work.
+
+**Tech stack**: Java, Scala, Python, JavaScript, React, Spring Boot, Flask, SQL.
 
 **Languages:** Hungarian (native), English (fluent), German (conversational), Spanish (learning)
 
 ## WORK EXPERIENCE
 
-| **Capgemini / Morgan Stanley projects** | _Budapest, HUNGARY_ |
+| **Capgemini - Morgan Stanley**          | _Budapest, HUNGARY_ |
 | --------------------------------------- | ------------------- |
 | _Software Engineer_                     | _May 2021–Jan 2023_ |
-
-_Employed by Capgemini and assigned full-time to Morgan Stanley as a backend software engineer._
 
 _Worked on backend systems focusing on services, databases and messaging infrastructure:_
 - Contributed to a large-scale project migrating financial products to a strategic risk framework for end-of-day and intraday risk calculation. 
@@ -28,19 +28,17 @@ _Worked on backend systems focusing on services, databases and messaging infrast
 
 | **CodeCool**         | _Budapest, HUNGARY_ |
 | -------------------- | ------------------- |
-| _Software Developer_ | _Sep 2019–May 2021_ |
+| _Software Developer_ | _2019–2021_ |
 
 _Career transition to become a Software Developer._
 
 - Completed an intensive Full Stack Developer program at CodeCool (Budapest), combining structured curriculum, mentor guidance, and hands-on team projects.
-- Worked in Agile teams (3–4 members), following Scrum methodology; presented project results at the end of each sprint and incorporated feedback
-from mentors and peers.
+- Worked in Agile teams (3–4 members), following Scrum methodology; presented project results at the end of each sprint and incorporated feedback from mentors and peers.
 - Gained practical experience across backend and frontend technologies, including:
     - Backend: Python, Java (Spring Boot), SQL, PostgreSQL, Hibernate
     - Frontend: HTML, CSS, React, JavaScript
-- Built a strong foundation in Object-Oriented Programming and software development best practices, including version control (Git/GitHub) and unit
-testing.
-- Developed soft skills in communication, teamwork, and project documentation through workshops and team collaboration.
+- Built a strong foundation in Object-Oriented Programming and software development best practices, including version control (Git/GitHub) and unit testing.
+- Developed soft skills in communication, presenation, and project documentation through workshops and team collaboration.
 
 | **HealthBay Polyclinic**       | _Dubai, UAE_        |
 | ------------------------------ | ------------------- |
@@ -65,9 +63,9 @@ _My responsibilities included:_
 - Managing orders with pharmaceutical vendors and wholesalers.
 - Coordinating and supporting pharmacy assistants during shifts.
 
-| **MH EK Honvédkórház (Hungarian Armed Forces Medical Center)** | _Budapest, HUNGARY_  |
-| -------------------------------------------------------------- | -------------------- |
-| _Pharmacist practitioner_                                      | _Jan 2015–June 2015_ |
+| **Hungarian Armed Forces Medical Center** | _Budapest, HUNGARY_  |
+| ----------------------------------------- | -------------------- |
+| _Pharmacist practitioner_                 | _Jan 2015–June 2015_ |
 
 _I completed my internship at the Military Hospital in both institutional and community pharmacies._
 
@@ -87,13 +85,14 @@ _I completed my internship at the Military Hospital in both institutional and co
 | Master's degree, Pharmacy (Pharm. Dr.) | _2009-2015_     |
 
 ## CERTIFICATIONS
+
 - Programming in Python by Meta (Feb 2026)
 - Introduction to Front-End Development by Meta (Dec 2025) 
 - Version Control by Meta (Nov 2025)
 
 ## SOCIAL ACTIVITIES AND HOBBIES
+
 - Served as a First Aid Provider at a Hungarian adventure park (2007–2008), providing emergency assistance and ensuring visitor safety.
 - Enthusiastic runner with a strong interest in health and personal endurance.
 - Enjoy hiking and exploring gastronomy and local cultures through travel.
 - Passionate about language learning; currently studying Spanish.
-
