@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anett Keszler - Timeline</title>
+    <style>
+    body {
+      margin: 0;
+      padding: 24px 16px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: #fff;
+      color: #111;
+    }
+
+    .container {
+      width: 760px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 20px;
+      margin-bottom: 24px;
+      font-weight: 600;
+    }
+
+    .timeline {
+      position: relative;
+    }
+
+    /* vertical line */
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 120px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: #e5e5e5;
+    }
+
+    .item {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      column-gap: 24px;
+      margin-bottom: 28px;
+      position: relative;
+    }
+
+    /* dot */
+    .item::before {
+      content: "";
+      position: absolute;
+      left: 116px;
+      top: 6px;
+      width: 9px;
+      height: 9px;
+      background: #111;
+      border-radius: 50%;
+    }
+
+    .date {
+      font-size: 13px;
+      color: #666;
+      text-align: right;
+      padding-top: 2px;
+    }
+
+    .content {
+      padding-left: 8px;
+    }
+
+    .title {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+
+    .company {
+      font-weight: 500;
+    }
+
+    .location {
+      font-size: 13px;
+      color: #888;
+      margin-bottom: 6px;
+    }
+
+    ul {
+      margin: 6px 0 0 16px;
+      padding: 0;
+    }
+
+    li {
+      font-size: 14px;
+      line-height: 1.45;
+      margin-bottom: 4px;
+    }
+
+    .item:hover {
+      background: #fafafa;
+    }
+
+    /* MOBILE */
+    @media (max-width: 600px) {
+      .timeline::before {
+        left: 6px;
+      }
+
+      .item {
+        grid-template-columns: 1fr;
+        padding-left: 18px;
+      }
+
+      .item::before {
+        left: 0;
+      }
+
+      .date {
+        text-align: left;
+        margin-bottom: 4px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+    <div class="container">
+    <h1>Experience</h1>
+
+    <div class="timeline">
+
+        <div class="item">
+        <div class="date">Jan 2023</div>
+        <div class="content">
+            <div class="title">
+            Software Engineer <span class="company">Morgan Stanley (through Capgemini)</span>
+            </div>
+            <div class="location">Budapest, Hungary</div>
+            <ul>
+            <li>Contributed to a strategic risk platform migration for end-of-day and intraday calculations.</li>
+            <li>Developed backend services, SQL solutions, and cloud migration components.</li>
+            <li>Coordinated releases across development, QA, and operations teams.</li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="item">
+        <div class="date">2019-2021</div>
+        <div class="content">
+            <div class="title">
+            Software Developer Trainee<span class="company">CodeCool</span>
+            </div>
+            <div class="location">Budapest, Hungary</div>
+            <ul>
+            <li>Completed a Full Stack Developer program focused on Java, Python, SQL, and React.</li>
+            <li>Delivered team projects using Agile/Scrum methodologies.</li>
+            <li>Built foundations in OOP, testing, Git, and software development best practices.</li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="item">
+        <div class="date">Feb 2017 - Aug 2017</div>
+        <div class="content">
+            <div class="title">
+            Patient Services Coordinator<span class="company">HealthBay Polyclinic</span>
+            </div>
+            <div class="location">Dubai, UAE</div>
+            <ul>
+            <li>Managed patient scheduling, insurance verification, and pre-authorizations.</li>
+            <li>Coordinated communication between patients, providers, and insurers.</li>
+            <li>Supported administrative and documentation processes.</li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="item">
+        <div class="date">Aug 2015 - Jul 2016</div>
+        <div class="content">
+            <div class="title">
+            Pharmacist<span class="company">Kulcs Patikak</span>
+            </div>
+            <div class="location">Budapest, Hungary</div>
+            <ul>
+            <li>Led shifts and supervised a team of five staff members.</li>
+            <li>Provided patient counseling and dispensed medications.</li>
+            <li>Managed controlled substances, inventory, and supplier orders.</li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="item">
+        <div class="date">Jan 2015 – Jul 2015</div>
+        <div class="content">
+            <div class="title">
+            Pharmacist Intern<span class="company">Hungarian Armed Forces Medical Center</span>
+            </div>
+            <div class="location">Budapest, Hungary</div>
+            <ul>
+            <li>Prepared medications for hospital wards and patients.</li>
+            <li>Compounded specialized pharmaceutical preparations.</li>
+            <li>Assisted patients with medication guidance and support.</li>
+            </ul>
+        </div>
+        </div>
+
+    </div>
+    </div>
+    <script>
+    function sendHeight() {
+        const height = document.body.scrollHeight;
+        window.parent.postMessage({ height: height }, "*");
+    }
+
+    window.addEventListener("load", sendHeight);
+    window.addEventListener("resize", sendHeight);
+    </script>
+
+</body>
